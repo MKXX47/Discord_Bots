@@ -9,7 +9,7 @@ OpenAI API Key - Replace <API_KEY> with your OpenAI API key.
 
 ## Installation
 Clone this repository:
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/MKXX47/Discord_Bots.git
 Install the required Python packages:
 pip install discord openai
 Replace the placeholders in the code with your Discord API token and OpenAI API key:
@@ -38,19 +38,19 @@ Discord API Token - Replace <DISCORD_TOKEN> with your Discord bot token.
 TMDb API Key - Replace <API_KEY> with your TMDb API key.
   
 ## Installation
-Clone this repository:
-git clone https://github.com/yourusername/your-repo.git
-Install the required Python packages:
+1. Clone this repository:
+git clone https://github.com/MKXX47/Discord_Bots.git
+2. Install the required Python packages:
 pip install discord requests
-Replace the placeholders in the code with your Discord API token and TMDb API key:
+3. Replace the placeholders in the code with your Discord API token and TMDb API key:
 API_KEY = '<API_KEY>'
 client.run("<DISCORD_TOKEN>")
 
 ## Usage
 Invite the bot to your Discord server.
-Start the bot by running the Python script:
+1. Start the bot by running the Python script:
 python bot.py
-In your Discord server, you can use the following commands to interact with the bot:
+2. In your Discord server, you can use the following commands to interact with the bot:
 /movie <movie_name>: Get information about a movie.
 /series <series_name>: Get information about a TV series.
 The bot will respond with details about the requested movie or series, including title, release date, overview, and a poster image (if available).
@@ -67,10 +67,10 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 
 ## Acknowledgments
-@Thanks to Discord for providing a platform for building awesome bots.
-@Thanks to OpenAI for the powerful GPT-3 language model.
-@Thanks to TMDb for their comprehensive movie and TV series data.
-!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
-!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
+-@Thanks to Discord for providing a platform for building awesome bots.
+-@Thanks to OpenAI for the powerful GPT-3 language model.
+-@Thanks to TMDb for their comprehensive movie and TV series data.
+-!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
+-!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
 
-#Feel free to customize and expand this README further to include more details about your project, usage examples, and any additional information you find relevant.
+-#Feel free to customize and expand this README further to include more details about your project, usage examples, and any additional information you find relevant.
