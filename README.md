@@ -53,7 +53,7 @@ python bot.py
 2. In your Discord server, you can use the following commands to interact with the bot:
 /movie <movie_name>: Get information about a movie.
 /series <series_name>: Get information about a TV series.
-The bot will respond with details about the requested movie or series, including title, release date, overview, and a poster image (if available).
+3. The bot will respond with details about the requested movie or series, including title, release date, overview, and a poster image (if available).
 
 ## Configuration
 You can customize the bot's behavior by adjusting the following parameters in the code:
@@ -67,10 +67,10 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 
 ## Acknowledgments
--@Thanks to Discord for providing a platform for building awesome bots.
--@Thanks to OpenAI for the powerful GPT-3 language model.
--@Thanks to TMDb for their comprehensive movie and TV series data.
--!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
--!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
+@Thanks to Discord for providing a platform for building awesome bots.
+@Thanks to OpenAI for the powerful GPT-3 language model.
+@Thanks to TMDb for their comprehensive movie and TV series data.
+!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
+!!!Make sure to replace placeholders like <DISCORD_TOKEN> and <API_KEY> with your actual tokens.
 
--#Feel free to customize and expand this README further to include more details about your project, usage examples, and any additional information you find relevant.
+Feel free to customize and expand this README further to include more details about your project, usage examples, and any additional information you find relevant.
