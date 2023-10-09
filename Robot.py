@@ -4,14 +4,8 @@ import requests
 import discord
 import openai
 
-# Use the API key for OpenAI
-openai.api_key = "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"
-
-# Use the GPT-3 language model
-model_engine = "text-davinci-003"
-
 # Replace <API_KEY> with your TMDb API key
-API_KEY = 'f829c05af5887538f100ecd7d49eb2b7'
+API_KEY = '<API_KEY>'
 
 # Discord client setup
 client = discord.Client(intents=discord.Intents.default())
@@ -133,24 +127,6 @@ async def on_message(message):
             for i in range(spam_num - 4):
                 await message.channel.send(user)
         return
-    if message.content.startswith("?"):
-        # Extract the question from the message
-        question = message.content.split(" ")[1:]
-        question = " ".join(question)
-        # Generate a response with the GPT-3 language model
-        completions = openai.Completion.create(
-            engine=model_engine,
-            prompt=question,
-            max_tokens=1024,
-            n=1,
-            stop=None,
-            temperature=0.5,
-        )
-        response = completions.choices[0].text
-
-        # Send the response back to the user
-        await message.channel.send(response)
-
 
 # Replace <DISCORD_TOKEN> with your Discord bot token
-client.run("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+client.run("<DISCORD_TOKEN>")
