@@ -98,35 +98,6 @@ async def on_message(message):
         else:
             # Series not found
             await message.channel.send("Series not found.")
-    if message.content.startswith("/spam"):
-
-        raw = message.content.split(" ")[1:2]
-        spam_num = int(raw[0])
-        user = message.content.split(" ")[2:]
-        user = " ".join(user)
-        if spam_num > 100:
-            spam_num = 100
-            await message.channel.send(f'{user} wou well get spamed {spam_num} times :smiling_imp:')
-            time.sleep(10)
-            await message.channel.send(f'hak lfa9ira tmok {user}')
-            time.sleep(10)
-            await message.channel.send(f'5od {user}')
-            time.sleep(10)
-            await message.channel.send(f'zidek hadi {user} :joy:')
-            for i in range(spam_num - 4):
-                await message.channel.send(user)
-
-        else:
-            await message.channel.send(f'{user} wou well get spamed {spam_num} times :smiling_imp:')
-            time.sleep(10)
-            await message.channel.send(f'hak lfa9ira tmok {user}')
-            time.sleep(10)
-            await message.channel.send(f'5od {user}')
-            time.sleep(10)
-            await message.channel.send(f'zidek hadi {user} :joy:')
-            for i in range(spam_num - 4):
-                await message.channel.send(user)
-        return
 
 # Replace <DISCORD_TOKEN> with your Discord bot token
 client.run("<DISCORD_TOKEN>")
